@@ -17,6 +17,25 @@ A serverless IoT sensor data ingestion and aggregation system built with AWS CDK
 └─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
 ```
 
+### 📊 Architecture Diagrams
+
+Professional architecture diagrams following AWS best practices:
+
+- **[System Overview](generated-diagrams/iot-sensor-aggregator-architecture.png)** - High-level component relationships
+- **[Detailed Flow](generated-diagrams/iot-sensor-aggregator-detailed-flow.png)** - Technical implementation details  
+- **[Well-Architected](generated-diagrams/iot-sensor-aggregator-well-architected.png)** - AWS Well-Architected Framework implementation
+
+### 📚 Architecture Documentation
+
+For comprehensive architecture documentation including AWS best practices, security implementation, and cost optimization, see **[ARCHITECTURE.md](ARCHITECTURE.md)**.
+
+**Key Architectural Principles:**
+- ✅ **Serverless-First**: No server management, automatic scaling
+- ✅ **Event-Driven**: Real-time processing with DynamoDB Streams  
+- ✅ **Security by Design**: Least privilege IAM, encryption, secrets management
+- ✅ **Well-Architected**: Follows all 5 pillars of AWS Well-Architected Framework
+- ✅ **Infrastructure as Code**: Complete automation with AWS CDK
+
 ## Features
 
 ### 🔄 Data Ingestion

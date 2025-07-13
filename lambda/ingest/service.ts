@@ -1,7 +1,6 @@
 import { DynamoDBDocumentClient, PutCommand } from '@aws-sdk/lib-dynamodb';
 import { SecretsManagerClient, GetSecretValueCommand } from '@aws-sdk/client-secrets-manager';
 
-// Types
 export interface SensorData {
   sensor_id: string;
   type: string;
