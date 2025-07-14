@@ -345,7 +345,3 @@ For issues and questions:
 1. Check the troubleshooting section
 2. Review CloudWatch Logs
 3. Create an issue in the repository
-
----
-
-**Built with ❤️ using AWS CDK and TypeScript**
